@@ -1,27 +1,59 @@
 <html>
     
     <head>
-        <a href="index.html">
-            <h1 style="text-align:center; color:darkgreen">
-                HELLO BUM!!
-            </h1>
-        </a>
+        <style>
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: darkgreen;
+            position: fixed;
+            top: 0;
+            width: 100%;
+          }
+
+          li a{float: right; }
+
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+
+          li a:hover:not(.active) {background-color: lightskyblue;}
+
+          .active {background-color: lightskyblue;}
+
+          li a{border-right: 1px solid seagreen;}
+
+          body {background-color: seagreen}
+          img {float:center}
+        </style>
     </head>
 
-    <body style="background-color:darkseagreen">
+    <body>
+        <ul>
+            <li style="float:left"><a href="index.html">Home</a></li>
+            <li><a class="active" href="dino.html">Dinos</a></li>
+            <li><a href="sports.html">Sports</a></li>
+          </ul>
+
         <p style="text-align:center">
             <img src="dinosaur.jpg" width="350" height="378">
         </p>
 
         <h3 style="text-align:center">These are my favorite Dinos :P</h3>
-        <ul style="text-align:center">
+        <ul2 style="text-align:left">
             <li>Velociraptors</li>
             <img src="velociraptor.jpeg" width="150" height="140">
             <li>Tyrannosaurus rex</li>
             <img src="trex.jpeg" width="200" height="140">
             <li>Diplodocus</li>
-            <img src="diplodocus.jpeg" width="200" height="140">
-        </ul>
+            <img style="text-align: center;" src="diplodocus.jpeg" width="200" height="140">
+        </ul2>
     </body>
 
 </html>
