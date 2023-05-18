@@ -4,25 +4,17 @@ body{
     margin: 0;
     background-color: #4D774E;
  }
- 
  /* Global */
  .container{
     width:80%;
     margin: auto;
     overflow:hidden;
  }
-
- .container2{
-    width:80%;
-    margin: auto;
-    overflow:hidden;
- }
- 
  ul{
     margin: 0;
     padding: 0;
  }
-
+  
  .dark{
     padding: 15px;
     background:#9DC88D;
@@ -30,158 +22,188 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
  }
- 
+
+
+ /* header */
  header{
+    position: fixed;
+    top: 0;
+    width: 100%;
     background: #164A41;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #F1B24A 4px solid;
  }
- 
  header a{
     color: #FFFFFF;
     text-decoration:none;
     text-transform: uppercase;
     font-size: 16px;
  }
- 
  header li{
     float: left;
     display: inline;
     /* This is top, right, bottom, left */
     padding: 0 20px 0 20px;
  }
- 
  header #branding{
     float: left;
  }
- 
  header #branding h1{
     margin: 0;
  }
- 
  header nav{
     float: right;
     margin-top: 10px;
  }
- 
  header nav li{
      font-size: 55px;
  }
- 
  header .highlight, header .current a{
      color: #F1B24A;
      font-weight: bold;
  }
- 
  header a:hover{
      color:#9DC88D;
      font-weight: bold;
  }
- 
+
+
+
  /* Showcase */
  #showcase{
      min-height: 400px;
-     background: url('../img/sunset.jpeg') no-repeat 50%, -400px;
+     background: url('../img/sunset.jpg') no-repeat 50%;
      text-align: center;
      color: #ffffff;
+     margin-top: 100px
      /* font: impact; */
  }
- 
-#showcase h1{
+ #showcase h1{
     margin-top: 100px;
     font-size: 55px;
     margin-bottom: 10px;
-}
- 
-#showcase p{
+ }
+ #showcase p{
     font-size: 20px;
     font-weight: bold;
+ }
+
+
+  /* Showcase NUMBER TWO */
+  #showcase2{
+    min-height: 600px;
+    background: url('../img/allsports.jpg') no-repeat 50%;
+    text-align: center;
+    color: #ffffff;
 }
- 
-/* boxes */
-#games {
+ #showcase2 h1{
+   margin-top: 0px;
+   font-size: 55px;
+   margin-bottom: 00px;
+} 
+
+#showcase2 p{
+   font-size: 20px;
+   font-weight: bold;
+   margin-left: 25%;
+   margin-right: 25%;
+}
+
+
+ /* boxes */
+ #games {
     margin-top: 20px;
     font-size: 18px;
-}
- 
-#games .game{
+ }
+ #games .game{
     float: left;
     width: 30%;
     padding: 10px;
     text-align: center;
-}
-
-#snek{
+ }
+  
+ #snek{
     width:280px;
-}
-
-#dino{
+ }
+  
+ #dino{
     width:200px;
-}
-
-#pac{
+ }
+  
+ #pac{
     width:200px;
-}
-
-/* showcase2 */
-#showcase2 {
-    min-height: 600px;
-    background: url(../img/allsports.jpg) no-repeat 50%;
-    text-align: center;
-    color: #ffffff
-}
-
-#showcase2 h1 {
-    margin-top: 0px;
-    font-size: 55px;
-    margin-bottom: 0px;
-}
-
-#showcase2 p {
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-/* sidebar */
-
-aside#sidebar{
+ }
+  
+ /* sidebar */
+  
+ aside#sidebar{
     float: right;
     width:30%;
     margin-top: 10px;
-}
-
-/* main-col */
-article#main-col{
+ }
+  
+ /* main-col */
+ article#main-col{
     float: left;
     width:66%;
+ }
+ 
+ /* HEHE */
+#phehe{
+   margin-top: 15px;
+   font-size: 20px;
+} 
+
+#phehe2{
+   margin-top: 35px;
+   font-size: 20px;
 }
 
-/* sports */
-ul#sports li{
+#h3{
+   font-size: 30px;
+}
+
+#h3f{
+   font-size:30px; 
+   margin-top: 100px
+}
+
+#h32{
+   margin-top: 75px
+}
+
+ /* hoho */
+ ul#hoho li{
     list-style: none;
     padding: 20px;
     border: #cccccc;
     margin-bottom: 5px;
     background:#9DC88D
-}
-
-
-footer{
+ }
+  
+ footer{
     padding: 15px;
     margin-top: 10px;
     color:#ffffff;
     background-color:#F1B24A;
     text-align:center;
     font-size: 15px;
-}
+ }
 
-/* media queries? */
+ #psport{
+   font-size:19px;
+   text-align: center;
+ }
 
-@media(max-width: 768px){
+ .sporttitle{
+    font-size: 25px
+ }
+  
+ /* media queries? */
+  
+ @media(max-width: 768px){
     header #branding,
     header nav,
     header nav li,
@@ -192,12 +214,22 @@ footer{
         text-align:center;
         width: 100%;
     }
-
+  
     header{
         padding-bottom: 20px;
     }
 
-    #showcase h1{
-        margin-top: 40px;
-    }
-}
+    #phehe{
+      margin-top: 35px;
+   } 
+
+   #phehe2{
+      margin-top: 20px;
+   }
+
+   #h3f{
+      font-size:30px; 
+      margin-top: 150px
+   }
+ }
+ 
