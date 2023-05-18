@@ -119,6 +119,14 @@ body{
     width:200px;
 }
 
+/* showcase2 */
+#showcase2 {
+    min-height: 600px;
+    background: url(../img/allsports.jpg) no-repeat 50%;
+    text-align: center;
+    color: #ffffff
+}
+
 /* sidebar */
 
 aside#sidebar{
