@@ -1,0 +1,176 @@
+body{
+    font: 15px/1.5 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    background-color: #4D774E;
+ }
+ 
+ /* Global */
+ .container{
+    width:80%;
+    margin: auto;
+    overflow:hidden;
+ }
+ 
+ ul{
+    margin: 0;
+    padding: 0;
+ }
+
+ .dark{
+    padding: 15px;
+    background:#9DC88D;
+    color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ 
+ header{
+    background: #164A41;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #F1B24A 4px solid;
+ }
+ 
+ header a{
+    color: #FFFFFF;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 16px;
+ }
+ 
+ header li{
+    float: left;
+    display: inline;
+    /* This is top, right, bottom, left */
+    padding: 0 20px 0 20px;
+ }
+ 
+ header #branding{
+    float: left;
+ }
+ 
+ header #branding h1{
+    margin: 0;
+ }
+ 
+ header nav{
+    float: right;
+    margin-top: 10px;
+ }
+ 
+ header nav li{
+     font-size: 55px;
+ }
+ 
+ header .highlight, header .current a{
+     color: #F1B24A;
+     font-weight: bold;
+ }
+ 
+ header a:hover{
+     color:#9DC88D;
+     font-weight: bold;
+ }
+ 
+ /* Showcase */
+ #showcase{
+     min-height: 400px;
+     background: url('../img/sunset.jpeg') no-repeat 50%, -400px;
+     text-align: center;
+     color: #ffffff;
+     /* font: impact; */
+ }
+ 
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+ 
+#showcase p{
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+/* boxes */
+#games {
+    margin-top: 20px;
+    font-size: 18px;
+}
+ 
+#games .game{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#snek{
+    width:280px;
+}
+
+#dino{
+    width:200px;
+}
+
+#pac{
+    width:200px;
+}
+
+/* sidebar */
+
+aside#sidebar{
+    float: right;
+    width:30%;
+    margin-top: 10px;
+}
+
+/* main-col */
+article#main-col{
+    float: left;
+    width:66%;
+}
+
+/* hoho */
+ul#hoho li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc;
+    margin-bottom: 5px;
+    background:#9DC88D
+}
+
+
+footer{
+    padding: 15px;
+    margin-top: 10px;
+    color:#ffffff;
+    background-color:#F1B24A;
+    text-align:center;
+    font-size: 15px;
+}
+
+/* media queries? */
+
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #games .game,
+    article#main-col,
+    aside#sidebar{
+        float:none;
+        text-align:center;
+        width: 100%;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    #showcase h1{
+        margin-top: 40px;
+    }
+}
